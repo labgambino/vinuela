@@ -1,0 +1,348 @@
+body { 
+    margin: 0;
+    padding: 0;
+overflow: hidden;
+    background: url(TORRE%20TOMA%20VINUELA.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+	filter: blur(0px);
+animation: glitch1 0.05s linear 1/*infinite*/ ;
+animation-delay: 7s;
+}
+
+
+@keyframes glitch1 {
+	
+	0% {
+		text-shadow: #ffff /*#b4cf06*/
+		0px 0px,
+		#0d22da 0px 0px;
+	}
+
+
+10% {
+
+background-position: 5px 0;
+filter: hue-rotate(0deg);
+
+}
+
+	20% {
+		text-shadow: #ffff /*#ff0000*/
+		-50px -80px,
+		#60ffff 10px 5px;
+	}
+
+30% {
+
+background-position: -5px 0;
+
+}
+
+
+40% {
+		text-shadow: #ffff /*#ff0000*/
+		-60px -100px,
+		#60ffff 30px 10px;
+	}
+
+
+50% {
+
+background-position: 15px 0;
+
+}
+
+
+
+60% {
+		text-shadow: #ffff /*#ff0000*/
+		-100px -125px,
+		#60ffff 58px 27px;
+	}
+
+
+70% {
+		text-shadow: #ffff /*#ff0000*/
+		-42px -49px,
+		#60ffff 21px 12px;
+	}
+
+
+80% {
+
+background-position: 25px 0;
+
+}
+
+
+90% {
+
+background-position: -50px -20px;
+
+}
+
+	95% {
+		text-shadow: #ffff
+		0px 0px,
+		#0d22da 0px 0px;
+	}
+
+100% {
+		background-position: 0px -px;
+		filter: hue-rotate(360deg);
+	}
+
+}
+
+
+
+
+
+
+.login-box {
+    width: 320px;
+    height: 450px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: relative;
+    z-index: 99;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 130px 30px;
+}
+
+
+
+
+
+
+.login-box .avatar {
+width: 300px;
+height: 100px;
+position: absolute;
+top: 10px;
+left: 10px;  
+	filter: blur(0px);
+animation: glitch2 0.05s ease 1/*infinite*/ ;
+animation-delay: 8s;
+
+}
+
+
+
+
+
+
+@keyframes glitch2 {
+  0%   {left:0px; top:0px;}
+  25%  {left:200px; top:0px;}
+  50%  {left:200px; top:200px;}
+  75%  {left:0px; top:200px;}
+  100% {left:0px; top:0px;}
+}
+
+
+
+
+/*@keyframes glitch2 {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}*/
+
+
+/*@keyframes glitch2 {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+
+}*/
+
+
+
+
+
+
+
+
+
+
+
+.login-box .avatar:hover {
+    
+    /*background: blue;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 30px;*/
+    transition: 1.5s ease;
+    cursor: no-drop /*zoom-in*/;
+transform: scale(4);
+filter: grayscale(100%) blur(0px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.login-box h1 {
+    
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    color:#b80f22; 
+    animation: glitch 0.05s linear 1/*infinite*/;
+    animation-delay: 4s;
+    /*animation-timing-function: steps(2,21|5);*/
+    /*animation-iteration-count: 1;*/
+/*animation-direction-count: normal;*/
+/*animation-fill-mode: none;*/
+/*animation-play-state: 3;*/
+
+}
+
+
+@keyframes glitch {
+	
+	0% {
+		text-shadow: #ffff /*#b4cf06*/
+		0px 0px,
+		#0d22da 0px 0px;
+	}
+
+	50% {
+		text-shadow: #ffff /*#ff0000*/
+		-60px -100px,
+		#60ffff 30px 10px;
+	}
+
+
+	100% {
+		text-shadow: #ffff
+		0px 0px,
+		#0d22da 0px 0px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.login-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+
+
+
+
+.login-box input {
+   width: 100%;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    
+}
+
+
+
+
+
+.login-box input[type="button"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #b80f22;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    transition: 0.7s ease;
+}
+
+
+
+
+.login-box input[type="button"]:hover {
+    
+    background: green;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 30px;
+    transition: 0.7s ease;
+    cursor: pointer;
+}
+
+
+
+
+
+#particles-js{
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	z-index: 99;
+
+
+
+/*
+h1 {
+	text-align: center;
+	margin: 0;
+	font-size: 100px;
+	font-family: lato; 
+	animation: glitch 3s infinite;
+}
+*/
+
+
+
+
+
+
+
+

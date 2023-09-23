@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body { 
+    margin: 0;
+    padding: 0;
+    background: url(TORRE%20TOMA%20VINUELA.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.caja-padre{
+    width: 80%;
+    min-width: auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 40%;
+    
+}
+
+.caja-padre2{
+    width: 90%;
+    min-width: auto;
+    position: relative;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 82%;
+    
+}
+
+
+
+.contenedor{
+    width: 100%;
+    padding: 10px 10px 20px;
+    background: linear-gradient(deg,darkred, black);
+    border: 2px solid rgba(0, 0, 0, 6);
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    
+}
+
+.contenedor2{
+    width: 100%;
+    padding: 10px 10px 20px;
+    background: linear-gradient(deg,darkblue, black);
+    border: 2px solid rgba(0, 0, 0, 6);
+    border-radius: 20px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    
+}
+
+
+
+
+.contenedor *{
+    font-family: 'Segoe UI', Tahoma, geneva, Verdana, sans-serif;
+    color: #ffffff;
+    font-weight: 630;
+}
+
+.contenedor2 *{
+    font-family: 'Segoe UI', Tahoma, geneva, Verdana, sans-serif;
+   
+    font-weight: 760;
+}
+
+
+
+
+
+h1{
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skills:not(:last-child){
+    margin-bottom: 30px;
+    
+}
+
+.detalles{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.detalles2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color:#ffffff;
+}
+
+
+
+
+.menu{
+    position: relative;
+    border: 1px solid cyan;
+    border-radius: 20px;
+}
+
+.menu2{
+    position: relative;
+    border: 1px solid cyan;
+    border-radius: 20px;
+}
+
+.menu div{
+    position: relative;
+    width: 0;
+    height: 10px;
+    border-radius: 10px;
+    background-color: cyan;
+}
+
+.menu2 div{
+    position: relative;
+    width: 0;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #56ff8a;
+}
+
+/*animacion*/
+
+#html-menu{
+    animation: html-barra 4s forwards;
+}
+
+@keyframes html-barra{
+    100%{
+        width: 35%;
+    }
+}
+
+#css-menu{
+    animation: css-barra 4s forwards;
+}
+
+@keyframes css-barra{
+    100%{
+        width: 40%;
+    }
+}
+
+#js-menu{
+    animation: js-barra 4s forwards;
+}
+
+@keyframes js-barra{
+    100%{
+        width: 98%;
+    }
+}
+
+#angular-menu{
+    animation: angular-barra 4s forwards;
+}
+
+@keyframes angular-barra{
+    100%{
+        width: 40%;
+    }
+}
+
+
+#b5-menu{
+    animation: b5-barra 4s forwards;
+}
+
+@keyframes b5-barra{
+    100%{
+        width: 40%;
+    }
+}
+
+
+#b6-menu{
+    animation: b6-barra 4s forwards;
+}
+
+@keyframes b6-barra{
+    100%{
+        width: 24%;
+    }
+}
+
+
+#b7-menu{
+    animation: b7-barra 6s forwards;
+}
+
+@keyframes b7-barra{
+    100%{
+        width: 24%;
+    }
+}
+
+
+
+
+
+
+h3{
+    text-align: center;
+    background-color: black;
+    color:white;
+    font-family:sans-serif;
+  
+    
+}
+
+#total-menu{
+    animation: total-barra 7s forwards;
+}
+
+@keyframes total-barra{
+    100%{
+        width: 42%;
+    }
+}
+
+h2{
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 20px;
+    font-weight:normal;
+    color:black;
+}
